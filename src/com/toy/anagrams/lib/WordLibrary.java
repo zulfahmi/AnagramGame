@@ -41,10 +41,8 @@ public abstract class WordLibrary {
     protected WordLibrary() {
     }
     
-    /** Getter for the default implementation of the WordLibrary.
-     * @return some default implementation of WordLibrary
-     */
     public static WordLibrary getDefault() {
+        System.out.println("Word Library");
         return StaticWordLibrary.DEFAULT;
     }
 
